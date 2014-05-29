@@ -18,7 +18,7 @@ $( document ).ready(function() {
 		var playButtonColor= "88d6f6"; // set the background color of play button
 		var vimeoBgColor = "f1f1f1"; // set the background color of Vimeo player
 
-		$('#vimeoEmbedder').html("<div id=\"video\" vimeo-color="+ vimeoColor +" vimeo-id="+ vimeoID +"><div class=\"video-container\" style=\"width:"+ width +"px; height:"+ height +"px; background-color:#"+ vimeoBgColor +";\"><span class=\"play\"><span style=\"background-color:#"+ playButtonColor +";\"></span></span> <img alt=\"Play\" src="+ image +" class=\"placeholder\"></div></div>"); // Get the HTML contents of the video player
+		$('#vimeoEmbedder').html("<div id='video' vimeo-color="+ vimeoColor +" vimeo-id="+ vimeoID +"><div class='video-container' style='width:"+ width +"px; height:"+ height +"px; background-color:#"+ vimeoBgColor +";'><span class='play'><span style='background-color:#"+ playButtonColor +";'></span></span> <img alt='Play' src="+ image +" class='placeholder'></div></div>"); // Get the HTML contents of the video player
 
 });
 
