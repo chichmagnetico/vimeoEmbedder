@@ -1,5 +1,5 @@
 {
-  "name": "vimeoEmbedder",
+  "name": "vimeo-embedder",
   "version": "0.0.1",
   "main": "js/jquery.vimeoEmbedder.js",
   "ignore": [
