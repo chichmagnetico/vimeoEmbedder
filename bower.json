@@ -3,5 +3,9 @@
   "version": "0.0.1",
   "main": "js/jquery.vimeoEmbedder.js",
   "ignore": [
-  ]
+    "js/jquery-1.11.1.min.js",
+  ],
+  dependencies: {
+    jquery: '>=1.11.0'
+  }
 }
